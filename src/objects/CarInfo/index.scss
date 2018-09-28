@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+
+.car-info-form {
+  position: relative;
+  margin: 20px 0px 100px 0px;
+
+  h6 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+  }
+
+  .form-group {
+    margin-bottom: 25px;
+
+    label {
+      margin: 5px 0px 0px 275px;
+      text-align: left;
+    }
+    .plate-input {
+      position: absolute;
+      left: 50%;
+      bottom: 10px;
+      transform: translate(-50%);
+      width: 300px;
+      height: 40px;
+      border-radius: 4px;
+      background-color: rgba(216, 216, 216, 0);
+      border: solid 1px #979797;
+      padding: 10px;
+    }
+    .type-select {
+      position: absolute;
+      left: 50%;
+      bottom: 10px;
+      transform: translate(-50%);
+      width: 300px;
+      height: 40px;
+      border-radius: 4px;
+      background-color: rgba(216, 216, 216, 0);
+      border: solid 1px #979797;
+      padding: 10px;
+
+    }
+  }
+}

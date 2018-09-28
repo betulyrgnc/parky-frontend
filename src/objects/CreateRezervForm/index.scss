@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+
+.rezerv-content{
+  margin-left: 40%;
+  transform: translate(-50%);
+  ul {
+    float: right;
+    margin: 0px 0px 0px 0px;
+      li {
+      width: 100%;
+      height: 25px;
+      font-family: AvenirNext;
+      font-size: 18px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #000000;
+      display: inline-block;
+      text-align: right;
+      margin: 10px 0px 20px 0px;
+    }
+    span {
+      text-align: right;
+      display: inline-block;
+      width: 100%;
+      height: 25px;
+      font-family: AvenirNext;
+      font-size: 14px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #000000;
+      margin-top: 0px;
+    }
+  }
+  .date-start {
+    width: 300px;
+    .rdtPicker {
+      padding: 0px;
+      border: 0;
+
+
+      .rdtDays {
+        background-color: #fff;
+        margin: -300px 0px 0px 0px;
+      }
+
+      .rdtTime {
+        background-color: #fff;
+        margin: -200px 0px 0px 0px;
+      }
+    }
+  }
+  .date-start-input {
+    outline: none;
+    width: 100%;
+    background: transparent;
+    height: 40px;
+    border-radius: 4px;
+    border: solid 1px #979797;
+    display: inline;
+    margin: 15px 0px 0px 30px;
+  }
+
+  .date-finish {
+    width: 300px;
+    .rdtPicker {
+      padding: 0px;
+      border: 0;
+
+
+      .rdtDays {
+        background-color: #fff;
+        margin: -300px 0px 0px 0px;
+      }
+
+      .rdtTime {
+        background-color: #fff;
+        margin: -200px 0px 0px 0px;
+      }
+    }
+  }
+}
+
+.date-finish-input {
+  outline: none;
+  width: 100%;
+  background: transparent;
+  height: 40px;
+  border-radius: 4px;
+  border: solid 1px #979797;
+  display: inline;
+  margin: 15px 0px 0px 30px;
+}

@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+
+.register{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    text-shadow: 0 1.6px 0 rgba(238, 199, 45, 0.37);
+    margin: 20px 0px 50px 15px;
+  }
+
+  .easy {
+    width: 87px;
+    height: 32px;
+    font-family: PlayfairDisplay;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #9b9b9b;
+    display: inline;
+    margin: 0px 0px 35px 15px;
+  }
+
+  span {
+    font-family: PlayfairDisplay;
+    color: #4a4a4a;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .name-input {
+
+    input {
+      width: 340px;
+      height: 60px;
+      border-radius: 2px;
+      background-color: #ffffff;
+      border: solid 1px #d0c8c8;
+      margin: 0px 0px 0px 15px;
+    }
+  }
+
+    .email-input {
+      input{
+        width: 340px;
+        height: 60px;
+        border-radius: 2px;
+        background-color: #ffffff;
+        border: solid 1px #d0c8c8;
+        margin: 0px 0px 0px 15px;
+        }
+    }
+
+    .password-input {
+      input{
+        width: 340px;
+        height: 60px;
+        border-radius: 2px;
+        background-color: #ffffff;
+        border: solid 1px #d0c8c8;
+        margin: 0px 0px 0px 15px;
+        }
+    }
+    .confirm-password-input {
+      input{
+        width: 340px;
+        height: 60px;
+        border-radius: 2px;
+        background-color: #ffffff;
+        border: solid 1px #d0c8c8;
+        margin: 0px 0px 0px 15px;
+        }
+    }
+    .contunie-button {
+      width: 119px;
+      height: 36px;
+      border-radius: 5px;
+      background-color: #000000;
+      margin: 20px 0px 0px 15px;
+
+      p {
+        width: 100%;
+        height: 18px;
+        font-family: SourceSansPro;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+        padding: 3px;
+      }
+    }
+
+    .sign-in-button {
+      width: 119px;
+      height: 36px;
+      border-radius: 5px;
+      background-color: #ffffff;
+      border: solid 1px #979797;
+      margin: 20px 0px 0px 30px;
+
+      p {  ///// işlemiyor
+        width: 100%;
+        height: 18px;
+        font-family: SourceSansPro;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #9b9b9b;
+        padding: 3px;
+      }
+    }
+      .footer-top {
+        width: 100%;
+        height: 17px;
+        font-family: SourceSansPro;
+        font-size: 13px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #4a4a4a;
+        margin: 50px 0px 0px 0px;
+        padding-left: 20px;
+      }
+
+      .footer-bottom {
+        width: 100%;
+        height: 18px;
+        font-family: SourceSansPro;
+        font-size: 14px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #4a4a4a;
+        padding-left: 20px;
+
+        span {
+          color: #9b9b9b;
+        }
+    }
+}

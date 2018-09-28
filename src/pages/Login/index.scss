@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+@import url('https://db.onlinewebfonts.com/c/c8e367ed921e0b64eb40752644e1e353?family=Bradley+Hand+ITC+TT');
+.loginPage{
+  width: 100%;
+
+  .bg-item{
+    width: 100%;
+    z-index: 3;
+  }
+
+  .logo-item{
+    position: absolute;
+    top:: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+  }
+  .logo-text{
+    width: 129px;
+    height: 25px;
+    font-family: BradleyHandITCTT;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #f8e71c;
+    z-index: 3;
+    position: absolute;
+    top:: 69%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    display: inline;
+
+    span{
+      color: #ffffff;
+      z-index: 3;
+      display: inline;
+    }
+  }
+}
